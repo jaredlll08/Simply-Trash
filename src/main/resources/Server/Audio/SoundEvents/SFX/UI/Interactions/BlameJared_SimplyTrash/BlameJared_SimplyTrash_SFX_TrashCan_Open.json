@@ -1,0 +1,11 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Items/BlameJared_SimplyTrash/BlameJared_SimplyTrash_SFX_TrashCan_Open.ogg"
+      ]
+    }
+  ],
+  "Volume": 2.0,
+  "Parent": "SFX_Attn_Quiet"
+}

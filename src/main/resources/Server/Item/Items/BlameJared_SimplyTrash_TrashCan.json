@@ -1,0 +1,102 @@
+{
+  "TranslationProperties": {
+    "Name": "items.BlameJared_SimplyTrash_TrashCan.name",
+    "Description": "items.BlameJared_SimplyTrash_TrashCan.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Icon": "Icons/ItemsGenerated/BlameJared_SimplyTrash_TrashCan.png",
+  "BlockType": {
+    "State": {
+      "Id": "BlameJared_SimplyTrash_TrashCan",
+      "Capacity": 54,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "BlameJared_SimplyTrash_SFX_TrashCan_Close",
+          "CustomModelAnimation": "Blocks/BlameJared_SimplyTrash_TrashCan/BlameJared_SimplyTrash_TrashCan_Close.blockyanim"
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "BlameJared_SimplyTrash_SFX_TrashCan_Open",
+          "CustomModelAnimation": "Blocks/BlameJared_SimplyTrash_TrashCan/BlameJared_SimplyTrash_TrashCan_Open.blockyanim"
+        }
+      }
+    },
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/BlameJared_SimplyTrash_TrashCan/BlameJared_SimplyTrash_TrashCan.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/BlameJared_SimplyTrash_TrashCan/BlameJared_SimplyTrash_TrashCan.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4b4b4b",
+    "BlockParticleSetId": "Metal",
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 20
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tinkering"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.55,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}
