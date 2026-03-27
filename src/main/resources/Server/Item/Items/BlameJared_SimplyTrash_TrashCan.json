@@ -9,9 +9,15 @@
   ],
   "Icon": "Icons/ItemsGenerated/BlameJared_SimplyTrash_TrashCan.png",
   "BlockType": {
+    "BlockEntity": {
+      "Components": {
+        "BlameJared_SimplyTrash_TrashCan": {},
+        "ItemContainerBlock": {
+          "Capacity": 54
+        }
+      }
+    },
     "State": {
-      "Id": "BlameJared_SimplyTrash_TrashCan",
-      "Capacity": 54,
       "Definitions": {
         "CloseWindow": {
           "InteractionSoundEventId": "BlameJared_SimplyTrash_SFX_TrashCan_Close",
@@ -60,7 +66,6 @@
     },
     "VariantRotation": "NESW",
     "Interactions": {
-      "Primary": "Break_Container",
       "Use": "Open_Container"
     }
   },
