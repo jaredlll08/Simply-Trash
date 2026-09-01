@@ -1,7 +1,7 @@
 {
     "Group": "BlameJared",
     "Name": "SimplyTrash",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Description": "Adds a trash can to easily destroy items!",
     "Authors": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "Website": "https://legacy.curseforge.com/hytale/mods/simply-trash",
-    "ServerVersion": ">=0.5.0",
+    "ServerVersion": ">=0.6.0",
     "Dependencies": {
         "Hytale:EntityModule": "*"
     },
